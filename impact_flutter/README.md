@@ -1,16 +1,19 @@
-# impact_flutter
+# Impact_flutter 项目说明
 
-A new Flutter project.
+### IMPACT_flutter 是什么？
 
-## Getting Started
+IMPACT_flutter是ImpactPROJECT的移动前端部分，运用了基于dart的谷歌的移动开发解决方案flutter，达到快速开发移动端app的目的
 
-This project is a starting point for a Flutter application.
+### ImpactPROJECT是什么？
 
-A few resources to get you started if this is your first Flutter project:
+这是一个个人项目，初衷旨在创作一个使用门槛较低的灵感培植/头脑风暴作为核心的交流/社交/资源连接的信息平台。
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+### 预览地址
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+_暂无_
+
+### 去哪里能了解更多？
+
+API文档：[戳我](https://lbgod2222.github.io/apidoc/)
+
+我的博客：[Abise‘s Script](http://abise.cc)
