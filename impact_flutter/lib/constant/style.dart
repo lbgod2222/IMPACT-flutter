@@ -12,3 +12,8 @@ const splashText = const TextStyle(
   fontSize: 99,
   fontWeight: FontWeight.w700,
 );
+const drawerUsername = const TextStyle(
+  fontFamily: 'StagSans',
+  fontSize: 30,
+  fontWeight: FontWeight.w500
+);

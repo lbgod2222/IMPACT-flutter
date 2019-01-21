@@ -14,15 +14,15 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('IMPACT!'),
           centerTitle: true,
-          leading: Builder(
-            builder: (BuildContext context) {
-              return IconButton(
-                icon: const Icon(Icons.menu),
-                // onPressed: () => {},
-                // tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-              );
-            },
-          ),
+          // leading: Builder(
+          //   builder: (BuildContext context) {
+          //     return IconButton(
+          //       icon: const Icon(Icons.menu),
+          //       // onPressed: () => {},
+          //       // tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+          //     );
+          //   },
+          // ),
           bottom: new TabBar(
             tabs: appbarList.map((AppbarItem item) {
               return new Tab(
@@ -33,6 +33,9 @@ class HomePage extends StatelessWidget {
           ),
         ),
         body: new MainViewLayout(),
+        drawer: new Drawer(
+          child: new DrawerComponent(),
+        ),
       )
     );
   }
