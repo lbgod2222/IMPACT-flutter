@@ -20,6 +20,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primaryColor: MainColor.positive,
+        scaffoldBackgroundColor: MainColor.tertiary,
+        splashColor: MainColor.secondary,
+        indicatorColor: MainColor.secondary,
+        accentColor: MainColor.secondary,
       ),
       routes: {
         '/HomePage': (ctx) => HomePage(),

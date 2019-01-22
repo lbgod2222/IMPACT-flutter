@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
       length: appbarList.length,
       child: new Scaffold(
         appBar: AppBar(
+          elevation: 3,
           title: Text('IMPACT!'),
           centerTitle: true,
           // leading: Builder(
