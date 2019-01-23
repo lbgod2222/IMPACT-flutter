@@ -31,12 +31,22 @@ class ArticleItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
       return new Container(
-        padding: EdgeInsets.only(left: 10, top: 20, right: 10, bottom: 20),
+        decoration: BoxDecoration(
+          border: Border(
+            top: BorderSide(width: 1.0, color: Color(0xFFFFFFFFFF)),
+            left: BorderSide(width: 1.0, color: Color(0xFFFFFFFFFF)),
+            right: BorderSide(width: 1.0, color: Color(0xFFFF000000)),
+            bottom: BorderSide(width: 1.0, color: Color(0xFFFF000000)),
+          ),
+        ),
+        padding: EdgeInsets.only(left: 0, top: 20, right: 10, bottom: 20),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             new Text(
               articleListItem.title,
               style: articleListTitle,
+              textAlign: TextAlign.left,
             ),
             new Column(
               crossAxisAlignment: CrossAxisAlignment.end,
