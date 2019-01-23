@@ -2,7 +2,7 @@
 
 ### IMPACT_flutter 是什么？
 
-IMPACT_flutter是ImpactPROJECT的移动前端部分，运用了基于dart的谷歌的移动开发解决方案flutter，达到快速开发移动端app的目的
+IMPACT_flutter是ImpactPROJECT的移动前端部分，运用了基于dart的谷歌的移动开发解决方案flutter，达到快速开发移动端app的目的,采用了bloC作为数据流控制
 
 ### ImpactPROJECT是什么？
 

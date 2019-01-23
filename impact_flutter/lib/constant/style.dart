@@ -17,3 +17,8 @@ const drawerUsername = const TextStyle(
   fontSize: 30,
   fontWeight: FontWeight.w500
 );
+const articleListTitle = const TextStyle(
+  fontFamily: 'StagSans',
+  fontSize: 40,
+  fontWeight: FontWeight.w500,
+);

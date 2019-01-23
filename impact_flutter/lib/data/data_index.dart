@@ -1,0 +1,1 @@
+export 'package:impact_flutter/data/models.dart';
